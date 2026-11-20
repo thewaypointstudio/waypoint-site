@@ -45,6 +45,13 @@ h3{font-size:20px;font-weight:600}
 .card span{display:block;padding:12px 16px 16px;font-size:15px;color:var(--brown-l)}
 .card b{display:block;font-family:"Fredoka",sans-serif;font-weight:600;font-size:19px;color:var(--brown)}
 
+#svgs{padding:40px 0 30px}
+.card img.sq{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#F5F2EC}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:28px 0 0}
+.chips a{background:var(--paper);border:2px solid var(--line);color:var(--brown);font-weight:700;font-size:15px;padding:8px 16px;border-radius:99px;text-decoration:none}
+.chips a:hover{border-color:var(--orange);color:var(--orange-d)}
+.more{text-align:center;margin:30px 0 0}
+
 .about{max-width:760px;text-align:center;padding:50px 0 70px}
 .about p{color:var(--brown-l)}
 
